@@ -1,0 +1,20 @@
+
+    const websiteHeading = $('h1');
+    console.log(websiteHeading.text().trim());
+
+    const quotes = $('.quote').find('a');
+    console.log(quotes.html());
+
+    const thirdQuotes = $('.quote').next().next();
+    //console.log(thirdQuotes.html());
+
+    const container = $('.row .col-md-8').parent().next();
+    //console.log(container.html());
+
+    /*const quotex = $('.quote span.text').each((i, el) => {
+        //console.log(i, $(el).text());
+        const quote_text = $(el).text();
+        const quote = quote_text.replace(/(^\“|\”$)/g, "");
+
+        console.log(i, quote);
+    });*/
